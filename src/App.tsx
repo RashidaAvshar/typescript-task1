@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Card from './components/Card';
+import Heading from './components/Heading';
+import Person from './components/Person';
 
 function App() {
+  const person = {
+    firstName: "farid",
+    lastName: "yusif",
+    age: 18
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Card title="kitab"  price={15} isLogged = {false} />
+      <Heading>{45}</Heading>
+      <Person name= {person}/>
+
     </div>
   );
 }
