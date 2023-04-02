@@ -43,10 +43,10 @@ function App() {
   return (
     <div className="App">
       
-      {/* <Card title="kitab"  price={15} isLogged = {false} />
-      <Heading>{45}</Heading> */}
-      {/* <Person name={person} /> */}
-      {/* <PersonList fullName={personList}/> */}
+      <Card title="kitab"  price={15} isLogged = {false} />
+      <Heading>{45}</Heading>
+      <Person name={person} />
+      <PersonList fullName={personList}/>
       <LoginPage status="login"/>
 
     </div>
