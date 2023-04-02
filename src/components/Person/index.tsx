@@ -6,6 +6,9 @@ const Person = (props: PersonProps) => {
       <h2>{props.name.firstName}</h2>
       <h2>{props.name.lastName}</h2>
       <h2>{props.name.age}</h2>
+      <h2>{props.name.address.home}</h2>
+      <h2>{props.name.address.street}</h2>
+ 
 
       
     </div>
